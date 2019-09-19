@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>RecuAI</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./assets/recuaiv1.png">
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <script src="https://kit.fontawesome.com/c68823f0de.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
+    rel='stylesheet' type='text/css'>
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+          // change the color from white to red to show the effect
+          $(".navbar.fixed-top").css("background-color", "#FFFFFF"); //#007bff
+          $("a").css("color", "black");
+          //$(".navbar-brand").removeClass("navbar-brand");
+          //$(".navbar-brand").text("RECU AI");
+          $(".navbar-brand").css("background-image", "none");
+          $(".navbar-brand").text("RECU AI");
+        }
+        else {
+          $("a").css("color", "#FFFFFF");
+          $(".navbar.fixed-top").css("background-color", "transparent");
+          $(".navbar-brand").addClass("navbar-brand");
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+</html>

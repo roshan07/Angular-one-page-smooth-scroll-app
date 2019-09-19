@@ -1,0 +1,41 @@
+#about {
+  background-color: #FFFFFF !important;
+  //background-color: #033060 !important;
+  height: 112vh;
+  margin: auto;
+  display: flex;
+  color: #033060;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  #about {
+    height: 100%;
+  }
+}
+
+
+#aboutContainer {
+  margin: auto;
+}
+
+#aboutContent {
+  //border: 2px solid red;
+  margin: auto;
+  min-height: 100%;
+}
+
+hr {
+  max-width: 5rem; //3.25rem
+  border-width: .2rem;
+  margin: auto;
+  padding: 10px;
+}
+
+span {
+  padding: 6px;
+}
+
+i {
+  color: #0077B5;
+}

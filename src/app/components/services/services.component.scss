@@ -1,0 +1,23 @@
+#services {
+  height: 70vh;
+  text-align: center;
+  //padding-top: 100px;
+  display: flex;
+  background-color: #033060 !important;
+}
+
+@media screen and (max-width: 600px) {
+  #services {
+    background-color: olive;
+    height: 100%;
+  }
+}
+
+#serviceContent {
+  margin: auto;
+  //border: 2px solid red;
+}
+
+.divider {
+  background-color: #FFFFFF;
+}

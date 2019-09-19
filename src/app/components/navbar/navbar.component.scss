@@ -1,0 +1,40 @@
+/* #mainNav {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+  //background-color: #fff;
+  -webkit-transition: background-color .2s ease;
+  transition: background-color .2s ease;
+} */
+
+a {
+  color: whitesmoke;
+}
+
+.navbar-expand-lg {
+  transition: 500ms ease;
+  background: transparent;
+}
+
+/* .navbar-expand-lg.scrolled {
+  backgro
+  und: #000 !important;
+} */
+
+.navbar-brand {
+  //padding-top: 10rem;
+  //padding-bottom: calc(10rem - 72px);
+  background: url(../../../assets/recuaiv1.png);
+  //background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, .8)), to(rgba(92, 77, 66, .8))), url(../../../assets/ml.jpg);
+  //background: linear-gradient(to bottom, rgba(92, 77, 66, .8) 0, rgba(92, 77, 66, .8) 100%), url(../../../assets/ml.jpg);
+  height: 50px;
+  width: 120px;
+  background-repeat: no-repeat;
+  //height: 100vh;
+  //opacity: 3;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-toggler {
+    border-color: black;
+  }
+}
